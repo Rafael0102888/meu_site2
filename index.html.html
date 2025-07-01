@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Clássicos do PlayStation 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+            background-color: #003791;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .game-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-table th, .game-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .game-table th {
+            background-color: #003791;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        .game-table tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .game-table tr:nth-child(even) {
+            background-color: #f3f7ff;
+        }
+
+        .game-table tr:nth-child(even):hover {
+            background-color: #eceff7;
+        }
+
+        .rating {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .rating-L {
+            background-color: #4CAF50;
+        }
+
+        .rating-10 {
+            background-color: #FFC107;
+        }
+
+        .rating-12 {
+            background-color: #FF9800;
+        }
+
+        .rating-14 {
+            background-color: #F44336;
+        }
+
+        .rating-16 {
+            background-color: #9C27B0;
+        }
+
+        .rating-18 {
+            background-color: #607D8B;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .game-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jogos Clássicos do PlayStation 2</h1>
+            <p class="subtitle">Os títulos mais icônicos do console mais vendido da história</p>
+        </header>
+
+        <table class="game-table">
+            <thead>
+                <tr>
+                    <th>Jogo</th>
+                    <th>Ano</th>
+                    <th>Faixa Etaria</th>
+                    <th>Genero</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>God of War</td>
+                    <td>2005</td>
+                    <td><span class="rating rating-18">18+</span></td>
+                    <td>Ação/Aventura</td>
+                </tr>
+                <tr>
+                    <td>Shadow of the Colossus</td>
+                    <td>2005</td>
+                    <td><span class="rating rating-12">12+</span></td>
+                    <td>Ação/Aventura</td>
+                </tr>
+                <tr>
+                    <td>Final Fantasy X</td>
+                    <td>2001</td>
+                    <td><span class="rating rating西班牙">14+</span></td>
+                    <td>RPG</td>
+                </tr>
+                <tr>
+                    <td>GTA: San Andreas</td>
+                    <td>2004</td>
+                    <td><span class="rating rating-18">18+</span></td>
+                    <td>Ação/Aventura</td>
+                </tr>
+                <tr>
+                    <td>Metal Gear Solid 3: Snake Eater</td>
+                    <td>2004</td>
+                    <td><span class="rating rating-16">16+</span></td>
+                    <td>Ação/Stealth</td>
+                </tr>
+                <tr>
+                    <td>Kingdom Hearts</td>
+                    <td>2002</td>
+                    <td><span class="rating rating-L">Livre</span></td>
+                    <td>Ação/RPG</td>
+                </tr>
+                <tr>
+                    <td>Resident Evil 4</td>
+                    <td>2005</td>
+                    <td><span class="rating rating-18">18+</span></td>
+                    <td>Survival Horror</td>
+                </tr>
+                <tr>
+                    <td>Tekken 5</td>
+                    <td>2004</td>
+                    <td><span class="rating rating-12">12+</span></td>
+                    <td>Luta</td>
+                </tr>
+                <tr>
+                    <td>Guitar Hero II</td>
+                    <td>2006</td>
+                    <td><span class="rating rating-L">Livre</span></td>
+                    <td>Ritmo</td>
+                </tr>
+                <tr>
+                    <td>Gran Turismo 4</td>
+                    <td>2004</td>
+                    <td><span class="rating rating-L">Livre</span></td>
+                    <td>Corrida</td>
+                </tr>
+                <tr>
+                    <td>Silent Hill 2</td>
+                    <td>2001</td>
+                    <td><span class="rating rating-18">18+</span></td>
+                    <td>Survival Horror</td>
+                </tr>
+                <tr>
+                    <td>Devil May Cry 3: Special Edition</td>
+                    <td>2006</td>
+                    <td><span class="rating rating-16">16+</span></td>
+                    <td>Ação/Aventura</td>
+                </tr>
+                <tr>
+                    <td>Persona 4</td>
+                    <td>2008</td>
+                    <td><span class="rating rating-14">14+</span></td>
+                    <td>RPG</td>
+                </tr>
+                <tr>
+                    <td>Burnout 3: Takedown</td>
+                    <td>2004</td>
+                    <td><span class="rating rating-12">12+</span></td>
+                    <td>Corrida</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p> 2023 PlayStation 2 Classics - Todos os jogos sao propriedade de seus respectivos detentores de direitos.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
